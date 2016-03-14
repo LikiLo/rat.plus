@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('ptsans-regular.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    width: 960px;
+    background-color: #fff;
+    margin: auto;
+    height: 100vh;
+    padding: 5px;
+}
+
+.post_no_photo {
+    width: 220px;
+    height: 171px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+}
+.post_no_photo:hover{
+    box-shadow: 0 0 20px rgba(0,122,255,0.3);
+}
